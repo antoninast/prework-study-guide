@@ -17,32 +17,104 @@
       <section class="card" id="html-section">
         <h2>HTML</h2>
         <ul>
-          <li>The head element contains information about the webpage.</li>
-          <li>The body element represents the visible content shown to the user.</li>
+          HTML (HyperText Markup Language) is the standard language used to create and structure content on the web.
+          It defines the structure of web pages using tags to organize text, images, links, forms, and other elements.
+          HTML provides the foundation for web content, while CSS and JavaScript enhance the design and functionality.
+          <li>The <code>head</code> element contains information about the webpage.</li>
+          <li>The <code>body</code> element represents the visible content shown to the user.</li>
+          <li>The <code>div</code> element is used as a container to group related content for layout or styling purposes.</li>
+          <li>The <code>img</code> element is used to display images on a webpage and requires a <code>src</code> attribute for the image source.</li>
+          <li>The <code>a</code> element creates hyperlinks and requires an <code>href</code> attribute for the link destination.</li>
+          <li>The <code>ul</code> element creates an unordered list, while the <code>ol</code> element creates an ordered list.</li>
+          <li>The <code>form</code> element is used to collect user input and can include fields like <code>input</code>, <code>textarea</code>, and <code>select</code>.</li>
+          <li>The <code>button</code> element creates a clickable button, often used in forms or for interactivity.</li>
+          <li>The <code>header</code>, <code>footer</code>, <code>article</code>, and <code>section</code> semantic tags improve accessibility and readability.</li>
+          <li>The <code>span</code> element is used to style a specific part of text inline without breaking the flow of the content.</li>
+          <li>The <code>meta</code> element within the <code>head</code> provides metadata like character encoding (<code>charset</code>) and viewport settings.</li>
+          <li>The <code>table</code> element is used to display tabular data and is structured with <code>thead</code>, <code>tbody</code>, and <code>tfoot</code> sections.</li>
         </ul>
       </section>
    
       <section class="card" id="css-section">
         <h2>CSS</h2>
         <ul>
-          <li>A margin indicates how much space we want around the outside of an element.</li>
-          <li>A padding indicates how much space we want around the content inside an element.</li>
+          CSS (Cascading Style Sheets) is not a programming language and is used to style and layout web pages, controlling elements like colors,
+          fonts, and positioning. It works with HTML to define the look of a site and enables responsive design
+          for different screen sizes. CSS helps separate content from design, making websites easier to maintain
+          and update. To make the CSS code work, we need to import the CSS file in our HTML document.
+          <li>The <code>margin</code> property indicates how much space we want around the outside of an element.</li>
+          <li>The <code>padding</code>property indicates how much space we want around the content inside an element.</li>
+          <li>The <code>color</code> property sets the text color of an element.</li>
+          <li>The <code>background-color</code> property changes the background color of an element.</li>
+          <li>The <code>margin</code> property controls the space outside an element's border.</li>
+          <li>The <code>padding</code> property controls the space inside an element's border.</li>
+          <li>The <code>font-family</code> property specifies the font type used for text.</li>
+          <li>The <code>border</code> property defines the style, width, and color of an element's border.</li>
+          <li>The <code>width</code> and <code>height</code> properties set the dimensions of an element.</li>
+          <li>The <code>display</code> property determines how an element is displayed (e.g., <code>block</code>, <code>inline</code>, <code>flex</code>, <code>grid</code>).</li>
+          <li>The <code>position</code> property specifies how an element is positioned on the page (e.g., <code>static</code>, <code>relative</code>, <code>absolute</code>, <code>fixed</code>, <code>sticky</code>).</li>
+          <li>The <code>z-index</code> property determines the stack order of elements (higher values appear on top).</li>
+          <li>The <code>text-align</code> property aligns text horizontally within an element (e.g., <code>left</code>, <code>center</code>, <code>right</code>).</li>
+          <li>The <code>box-shadow</code> property adds shadow effects to an element's box.</li>
+          <li>The <code>transition</code> property adds smooth animations when property values change.</li>
+          <li>The <code>flexbox</code> layout is used for aligning and distributing space in a container with properties like <code>justify-content</code> and <code>align-items</code>.</li>
+          <li>The <code>grid</code> layout is used for creating complex, responsive designs with rows and columns.</li>
         </ul>
       </section>
    
       <section class="card" id="git-section">
         <h2>Git</h2>
         <ul>
-          <li>git status: checks what branch we are currently on</li>
-          <li>git checkout -b branch-name: creates a new branch and switches to it</li>
+          Git is a distributed version control system that tracks changes in files,
+          primarily used for managing code in software development. It allows multiple developers to collaborate efficiently by enabling them to work on different branches,
+          make changes, and merge them seamlessly. Git keeps a history of all changes, making it easy to revert
+          to previous versions or view the progress of a project over time.
+          Because it's distributed, every developer has a complete copy of the repository, allowing them
+          to work offline and sync changes later. Git is commonly used with platforms like GitHub, GitLab,
+          or Bitbucket for hosting and managing code repositories.
+          <li><code>git status</code>: checks what branch we are currently on, including staged, unstaged, and untracked files.</li>
+          <li><code>git checkout -b branch-name</code>: creates a new branch and switches to it.</li>
+          <li><code>git checkout &lt;branch-name&gt;</code>: switches to the specified branch.</li>
+          <li><code>git init</code>: initializes a new Git repository in the current directory.</li>
+          <li><code>git clone &lt;repository-url&gt;</code>: creates a local copy of a remote repository.</li>
+          <li><code>git add &lt;file&gt;</code>: adds the specified file to the staging area. Use <code>git add .</code> to stage all changes.</li>
+          <li><code>git commit -m "message"</code>: records changes to the repository with a descriptive commit message.</li>
+          <li><code>git push</code>: uploads local repository changes to a remote repository.</li>
+          <li><code>git pull</code>: fetches and integrates changes from a remote repository into the local repository.</li>
+          <li><code>git branch</code>: lists all branches in the repository and highlights the current branch.</li>
+          <li><code>git merge &lt;branch-name&gt;</code>: merges the specified branch into the current branch.</li>
+          <li><code>git log</code>: displays the commit history of the repository.</li> <li><code>git diff</code>: Shows the differences between changes in the working directory and the repository.</li> <li><code>git reset &lt;file&gt;</code>: Removes the specified file from the staging area without deleting the changes.</li> <li><code>git stash</code>: Temporarily saves uncommitted changes to clean the working directory.</li> <li><code>git remote -v</code>: Displays the URLs of remote repositories associated with the project.</li> <li><code>git tag</code>: Creates a tag for a specific commit, often used for versioning.</li>
         </ul>
       </section>
    
       <section class="card" id="javascript-section">
         <h2>JavaScript</h2>
         <ul>
-          <li>A variable is a named container that allows us to store data in our code.</li>
+          JavaScript is a high-level, dynamic programming language primarily used to create
+          interactive effects within web browsers.
+          It is one of the core technologies of the World Wide Web,
+          alongside HTML and CSS, and is an essential tool for web development.
+          It runs in the browser (client-side) but can also be used on the server (with Node.js).
+          JavaScript enables features like form validation, animations, and event handling,
+          making websites interactive. It is versatile, supporting both front-end and back-end
+          development, and is essential for modern web applications.
+          <li>A <strong>variable</strong> is a named container that allows us to store data in our code.</li>
           <li>Control flow is the order in which a computer executes code in a script.</li>
+          <li><strong>Functions</strong> are one of the fundamental building blocks in JavaScript. A function definition consists of the function keyword, followed by:
+            <ul>
+              <li>The name of the function.</li>
+              <li>A list of parameters to the function, enclosed in parentheses and separated by commas.</li>
+              <li>The JavaScript statements that define the function, enclosed in curly braces, { /* … */ }.</li>
+            </ul>  
+          </li>
+          <li>The <strong>if...else</strong> statement executes a statement <strong>if</strong> a specified condition is truthy. If the condition is falsy, another statement in the optional <strong>else</strong> clause will be executed.</li>
+          <li><strong>Loops</strong> offer a quick and easy way to do something repeatedly. A <strong>for loop</strong> repeats until a specified condition evaluates to false. </li>
+          <li><strong>Arrays</strong>:
+            <ul>
+              <li>JavaScript arrays are resizable and can contain a mix of different data types.</li>
+              <li>JavaScript arrays are zero-indexed: the first element of an array is at index 0, the second is at index 1, and so on — and the last element is at the value of the array's length property minus 1.</li>
+            </ul>
+          </li>
         </ul>
       </section>
     </main>
