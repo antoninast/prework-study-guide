@@ -18,7 +18,7 @@ On the website you can review four different topics. Below each topic there is a
 
 ### How to use the website
 
-Open the Chrome DevTools by pressing Command+Option+I for macOS or Control+Shift+I for Windows. A console panel should open either below or to the side of the webpage in the browser.
+Open the Chrome DevTools by pressing `Command+Option+I` for macOS or `Control+Shift+I` for Windows. A console panel should open either below or to the side of the webpage in the browser.
 
 In the console you will you will see the section "Here are the topics we learned through Prework". There are listed all topics covered in the website. The next section is "Which topic should we study first?". In this section you will see a randomly generated topic.  
 
